@@ -1,0 +1,92 @@
+#pocetna_sekcija{
+	width: 1040px;
+	padding: 20px;
+}
+
+
+#naslov{
+	font-size: 24px;
+}
+
+#slider{
+	position: relative;
+	height: 480px;
+	width: 360px;
+	float: left;
+        border: 2px solid white;
+        border-radius: 6px;
+}
+#slider img{
+	width: 360px;
+	position:absolute;
+	top:0;
+	left:0;
+	z-index:8;
+	opacity:0.0;
+        border-radius: 6px;
+}
+
+#slider img.active{
+    z-index:10;
+    opacity:1.0;
+}
+
+#slider img.last-active{
+	z-index: 9;
+}
+
+#infor{
+	width: 600px;
+	float: left;
+}
+
+#infor li{
+	width: 200px;
+	font-weight: bold;
+}
+
+#tekst{
+	width: 400px;
+	margin: 0 auto 20px;
+	color: #ccc;
+}
+
+#tekst a{
+	text-decoration: none;
+	color: orange;
+}
+
+#radnoVreme{
+	width: 300px;
+	font-size: 20px;
+	margin: 10px 0px;
+	padding: 10px;
+	text-align: center;
+	position: relative;
+}
+
+#radnoVreme span{
+	margin: 0px;
+}
+
+#open{
+	margin: -2px 0px 0px;
+	color: orange;
+	font-weight: bold;
+	letter-spacing: 1.1px;
+	
+}
+
+
+#opis{
+	width: 230px;
+	height: 60px;
+	text-align: justify;
+	color: #ccc;
+	padding: 10px;
+}
+
+#oblast{
+	margin-top: 40px;
+	margin-left: 80px;
+}

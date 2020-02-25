@@ -1,0 +1,56 @@
+#usluge_sekcije{
+	width: 1040px;
+	padding: 20px;
+}
+
+#info_usluge{
+	width: 500px;
+        margin-left: 30px;
+        margin-right: 20px;
+        color: #ccc;
+        text-align: justify;
+        float: left;
+}
+
+#tabela_cena{
+    margin-left: 20px;
+}
+table{
+    
+    width: 460px;
+    text-align: center;
+    margin: 20px;
+}
+
+table,tr{
+    border: 2px solid orange;
+    border-collapse: collapse;
+}
+
+
+th{
+    background-color: orange;
+   
+}
+
+tr:first-child th:first-child{
+    border-right: 1px solid white; 
+}
+
+tr:first-child th:last-child{
+    border-left: 1px solid white;
+}
+
+td{
+    color: orange;
+    background-color: white;
+}
+
+tr:last-child{
+    border-bottom: 5px solid orange;
+}
+
+.cena{
+    color:darkred;
+    font-weight: bold;
+}

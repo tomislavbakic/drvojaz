@@ -1,0 +1,38 @@
+#heder_galerija h3{
+	color: orange;
+	letter-spacing: 1.1px;
+}
+
+#heder_galerija select{
+	width: 250px;
+	box-shadow: 0px -1px gray;
+	color: white;
+	letter-spacing: 1.1px;
+	font-weight: bold;
+	background-color: #364233;
+}
+
+#heder_galerija{
+	padding-bottom: 20px;
+	border-bottom: 1px solid orange;
+}
+
+
+#content_slike img{
+	margin: 10px 20px;
+	
+}
+
+.vertikalne{
+	width: 200px;
+	height: 270px;
+}
+
+.horizontalne{
+	width: 200px;
+	height: 180px;
+}
+
+#content_slike img:hover{
+	box-shadow: 5px 5px 13px white;
+}

@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="copyright" content="copyright 2019, Tomislav Bakic">
+		<meta name="author" content="Tomislav Bakic">
+		<meta name="description" content="Seminraski rad iz predmeta Klijentske Web tehnologije">
+		<link rel="stylesheet" type="text/css" href="../css/style.css">
+		<link rel="stylesheet" type="text/css" href="../css/kontakt.css">
+		<script type="text/javascript" src="../js/functions.js"></script>
+			<title>Kontakt</title>
+	</head>
+	<body>
+		<div id="container">
+			<header>
+				<h1 class="drvojaz">DRVOJAZ</h1>
+				<h3 class="szr">SAMOSTALNA ZANATSKA RADNJA</h3>
+			</header>
+			<nav>
+				
+					<ul id="menu">
+						<li><a href="index.html">Početna strana</a></li>
+						<li><a href="usluge.html">Usluge</a></li>
+						<li><a href="galerija.html">Galerija</a></li>
+						<li><a href="info.html">Informacije</a></li>
+                                                <li><a href="kontakt.html" style="color:#364233;background-color: white;">Kontakt</a></li>
+					</ul>
+                            <div class="clear"></div>
+			</nav>
+
+			<section id="kontakt_sekcija">
+				<div id="kontakt_centar">
+					<h2>Pupunite formular sa informacijama:</h2>
+					<div id="k_c_left">
+						<p>Ime: </p>
+						<p>Prezime: </p>
+						<p>Adresa: </p>
+						<p>Kontakt telefon: </p>
+						<p>Email adresa:</p>
+						<p>Rok za zavšetak:</p>
+						<p><b>Vrsta radova:</b></p>
+						<ul style="list-style-type: none;">
+							<li>Unutrašnja stolarija</li>
+							<li>Spoljna stolarija</li>
+							<li>Kuhinja</li>
+							<li>Nameštaj</li>
+							<li>Nešto drugo</li>
+						</ul>
+					</div>
+					<div id="k_c_right">
+						<form action="http://www.w3schools.com/action_page.php" method="get" onsubmit='return validacijaForme()' target="_blank" id="forma">
+                                                    <input id="ime" type="text" name="firstname" placeholder="Ime" required> <span class="zvezdica" title="Polje je obavezno"> *</span><br/>
+							<input id="prezime" type="text" name="lastname" placeholder="Prezime" required> <span class="zvezdica" title="Polje je obavezno"> *</span><br/>
+							<input id="adresa" type="text" name="address" placeholder="Ulica i broj" required> <span class="zvezdica" title="Polje je obavezno"> *</span><br/>
+							<input id="telefon" type="text" name="phone" placeholder="Kontakt telefon" required> <span class="zvezdica" title="Polje je obavezno"> *</span><br/>
+							<input id="email" type="text" name="email" placeholder="Email adresa" required> <span class="zvezdica" title="Polje je obavezno"> *</span><br/>
+							<input id="rok" type="text" name="rok" placeholder="Broj dana" required> <span class="zvezdica" title="Polje je obavezno"> *</span><br/> <br><br/>
+								
+							<input type="radio" name="vrsta" value="unutrasnja" checked> <br/>
+							<input type="radio" name="vrsta" value="spoljna"> <br/>
+							<input type="radio" name="vrsta" value="kuhinja"> <br/>
+							<input type="radio" name="vrsta" value="namestaj"> <br/>
+							<input type="radio" name="vrsta" value="ostalo"> <br/> <br>
+
+							<input type="submit" name="submit" value="Potvrdi" style="width: 80px; background-color: orange; padding: 2px; color: white;font-weight: bold;" onsubmit="resetForme()" />
+							<input type="button" name="ponisti" value="Ponisti" style="width: 80px; background-color: #333; padding: 2px; color: white;font-weight: bold;" onclick="resetForme()" />
+						</form>
+					</div>
+					<div class="clear"></div>
+				</div>
+
+			</section>
+
+
+		</div>
+		<footer>
+                    Copyright &copy; <a href="https://github.com/tomislavbakic" target="_blank">Tomislav Bakic</a> | s.z.r. <a href="index.html"><b>DRVOJAZ</b></a> 
+                    <a href="mailto:bakic.tomislav@gmail.com?CC=bakic.milos71@gmail.com&amp;Subject=DRVOJAZ&amp;Body=Postovanje%2C%20ostavite%20informacije%20o%20sebi%0AIme%3A%0APrezime%3A%0ABroj%20telefona%3A%0AVrsta%20usluge%3A%0AKomentar%3A"><img src="../img/email.png" width="30" alt="Email"></a>
+                </footer>
+	</body>
+</html>

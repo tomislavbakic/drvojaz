@@ -1,0 +1,54 @@
+
+#container{
+	padding-bottom: 30px;
+}
+#info_section{
+	width: 1040px;
+	padding: 20px;
+	padding-bottom: 60px;
+}
+
+
+#info_section img{
+	float: left;
+	margin-right: 40px;
+	margin-bottom: 20px;
+}
+
+#desni{
+	float: left;
+	width: 600px;
+
+}
+
+#desni p{
+	text-align: justify;	
+}
+
+.span_l{
+	width: 250px;
+}
+.span_r{
+	width:250px;
+	color: orange;
+	text-align: right;
+}
+#kontakt{
+	width: 500px;
+}
+
+#kontakt a{
+	text-decoration: none;
+	color: orange;
+}
+#info_levi{
+	width: 500px;
+	float: left;
+	margin-right: 20px;
+}
+#info_desni{
+	margin-top: -50px;
+	width: 450px;
+	float: left;
+	margin-bottom: 20px;
+}

@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="copyright" content="copyright 2019, Tomislav Bakic">
+		<meta name="author" content="Tomislav Bakic">
+		<meta name="description" content="Seminraski rad iz predmeta Klijentske Web tehnologije">
+		<link rel="stylesheet" type="text/css" href="../css/style.css">
+		<link rel="stylesheet" type="text/css" href="../css/index.css">
+		<script type="text/javascript" src="../js/jquery-3.4.1.min.js"></script>
+		<script type="text/javascript" src="../js/functions.js"></script>
+		<script type="text/javascript" src="../js/cookie.js"></script> <!--ne radi-->
+			<title>Pocetna strana</title>
+	</head>
+	<body onload="startTime(),radiLiRadionica(),zakucaj()">
+            <div id="container" >
+                <header>
+                    <h1 class="drvojaz">DRVOJAZ</h1>
+                    <h3 class="szr">SAMOSTALNA ZANATSKA RADNJA</h3>
+                </header>
+                <nav>
+				
+                    <ul id="menu">
+                        <li><a href="index.html" style="color:#364233;background-color: white;">Početna strana</a></li>
+                        <li><a href="usluge.html">Usluge</a> </li>
+                        <li><a href="galerija.html">Galerija</a></li>
+                        <li><a href="info.html">Informacije</a></li>
+                        <li><a href="kontakt.html">Kontakt</a></li>
+                        <li style="float: right;padding: 5px;background-color: orange;">
+                            <div id="counter" style="font-weight: bold; ">
+                                <script>
+                                document.write("Broj poseta: "+ novavrednost);
+                                 </script>
+                            </div>
+                        </li>
+                    </ul>
+                        
+                    <div class="clear"></div>
+                </nav>
+
+                <section id="pocetna_sekcija">
+                    <div>
+                        <h1 id="naslov">Više od 20 godina iskustva!</h1>
+					
+                    </div>
+                    <div id="slider">
+                        <img src="../images/kuhinja4.jpg" alt="Kuhinja" width="360" height="480" class="active">
+                        <img src="../images/regal2.jpg" alt="Regal" width="360" height="480">
+                        <img src="../images/vrata2.jpg" alt="Vrata" width="360" height="480">
+                        <img src="../images/klizni.jpg" alt="Klizni regal" width="360" height="480">
+                        <img src="../images/stepenice2.jpg" alt="Stepenice" width="360" height="480">
+                        <img src="../images/kuhinja5.jpg" alt="Kuhinja" width="360" height="480">
+					
+                    </div>
+                    <div id="infor">
+                        <div id="tekst">
+                            <h2>Kratka biografija</h2>
+                            <p style="text-indent: 40px; text-align: justify;"><i>	Miloš Bakić rođen je 1971. godine u Užicu. Nakon završene Visoke Škole strukovnih studija u Užicu počinje da radi u 24. Septembru u Užicu. Daje otkaz u 24. Septembru i počinje samostalno da se bavi stolarijom i 2001 godine otvara firmu pod imenom "Drvo Dizajn"</i></p> <a href="info.html" title="Klikni na link za vise informacija">Pročitaj više</a>
+                        </div>
+                        <div id="oblast">
+                        <h2>Oblast delatnosti</h2>
+                            <ol>
+                                <li id="us" onmouseover="dodatneInformacije('us')">Unutrašnja stolarija</li>
+                                <li id="ss" onmouseover="dodatneInformacije('ss')">Spoljna stolarija</li>
+                                <li id="kuh" onmouseover="dodatneInformacije('kuh')">Kuhinje</li>
+                                <li id="nam" onmouseover="dodatneInformacije('nam')">Nameštaj</li>	
+                            </ol>
+                            <a href="usluge.html" title="Više o ovome na delu sajta Usluge" style="font-size: 16px;font-weight: bold; text-decoration: none; color: orange;margin-left: 30px;margin-top: -10px;" id="more" onmouseover="dodatneInformacije('more')"> . . . </a>
+                            <p id="opis">
+                                Više informacija o uslugama koje pružamo možete naći na delu sajta predviđenom za to.
+                            </p>
+                        </div>	
+                    </div>	
+                    <div class="clear"></div>
+
+                    <div id="radnoVreme" >
+                        <img src="../img/wood.png" width="300" height="100"  alt="Tabla" style="position: absolute; z-index: -1;left: -3px;bottom: -10px;">
+                        <span>Trenutno vreme:</span> <span id="txt"></span>
+                        <h3 id="open"></h3>
+                        <img  id="cekic"  alt="Cekic" src="../img/cekic.png" width="70" style="position: absolute; right: 0;bottom: 20px; transform: rotate(-20deg);">
+                    </div>
+                </section>
+                
+               
+                         
+            </div>
+            <footer>
+                Copyright &copy; <a href="https://github.com/tomislavbakic" target="_blank">Tomislav Bakic</a> | s.z.r. <a href="index.html"><b>DRVOJAZ</b></a> 
+                <a href="mailto:bakic.tomislav@gmail.com?CC=bakic.milos71@gmail.com&amp;Subject=DRVOJAZ&amp;Body=Postovanje%2C%20ostavite%20informacije%20o%20sebi%0AIme%3A%0APrezime%3A%0ABroj%20telefona%3A%0AVrsta%20usluge%3A%0AKomentar%3A"><img src="../img/email.png" width="30" alt="Email"></a>
+            </footer>
+	</body>
+</html>

@@ -1,0 +1,118 @@
+
+body{
+	width: 100%;
+	margin: 0 auto;
+	padding: 0;
+	/*background-image: url("../img/pozadina2.png");*/
+	background-image: url("../img/body.png");
+	background-repeat: repeat;
+	background-color: #364233;
+	color: white;
+	font-size: 13px;
+	font-family: "Helvetica",sans-serif;
+	line-height: 1.6;
+}
+
+
+
+#container{
+	width: 1040px;
+	margin: 0 auto;
+	padding: 20px;
+	padding-bottom: 30px;
+	background-image: url("../img/body.png");
+	background-repeat: repeat;
+}
+
+nav{
+    background-color: #364233;
+}
+
+#menu{
+	width: 100%;
+	background-color: #364233;
+	list-style-type: none;
+	margin: 0px;
+	padding: 0px;
+	text-align: center;
+}
+
+#menu li{
+	float: left;
+}
+
+#menu a{
+	padding: 20px;
+	display: block;
+	background-color: #364233;
+	text-decoration: none;
+	color: white;
+	font-weight: bold;
+	font-size: 15px;
+}
+
+#menu a:hover{
+	color:#364233;
+	background-color: white;
+}
+
+
+.oznaceno a{
+    color:#364233;
+    background-color: white;
+}
+
+
+.drvojaz{
+	color: orange;
+	font-size: 32px;
+	margin: 0px;
+	text-shadow:3px 3px 8px orange;
+        width: 200px;
+}
+
+.drvojaz:hover{
+	text-shadow:3px 3px 8px #00FF00;
+}
+
+.szr{
+	font-size: 14px;
+	margin: -10px 0 5px;
+}
+
+.clear{
+	clear: both;
+}
+
+
+#usluge_submenu{
+	visibility: hidden;
+	position: absolute;
+}
+
+
+footer{
+	position: relative;
+
+	margin: 20px auto;
+	width: 1040px;
+	padding: 20px;
+	font-size: 14px;
+	text-align: center;
+	background-image: url("../img/body.png");
+	background-repeat: repeat;
+
+}
+
+footer a{
+	color: #ccc;
+}
+
+footer img{
+	margin-bottom: -10px;
+	margin-left: 20px;
+}
+
+footer img:hover{
+	border: 1px solid orange;
+}

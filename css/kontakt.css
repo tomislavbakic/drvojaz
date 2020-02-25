@@ -1,0 +1,32 @@
+#kontakt_centar{
+	width: 400px;
+	margin: 100px auto;
+}
+
+#k_c_left{
+	width: 200px;
+	letter-spacing: 1.1px;
+	color: white;
+	float: left;
+}
+
+#k_c_left li{
+	margin-bottom: 9px;
+}
+
+#k_c_right{
+	width: 200px;
+	letter-spacing: 1.1px;
+	color: white;
+	float: left;
+}
+
+
+#k_c_right input{
+	margin-top: 11.5px;
+}
+
+.zvezdica{
+	color: red;
+
+}

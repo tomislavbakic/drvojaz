@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+    <usluga>
+        <vrsta>Prozor</vrsta>
+        <size>50x50</size>
+        <price>30</price>
+    </usluga>
+    <usluga>
+       <vrsta>Prozor</vrsta>
+        <size>50x80</size>
+        <price>40</price>
+    </usluga>
+    <usluga>
+        <vrsta>Prozor</vrsta>
+        <size>80x80</size>
+        <price>50</price>
+    </usluga>
+    <usluga>
+       <vrsta>Vrata</vrsta>
+        <size>60x210</size>
+        <price>40</price>
+    </usluga>
+    <usluga>
+        <vrsta>Vrata</vrsta>
+        <size>120x210</size>
+        <price>60</price>
+    </usluga>
+    <usluga>
+        <vrsta>Regal</vrsta>
+        <size>60x60</size>
+        <price>80</price>
+    </usluga>
+    <usluga>
+        <vrsta>Regal</vrsta>
+        <size>80x120</size>
+        <price>100</price>
+    </usluga>
+    <usluga>
+        <vrsta>Regal</vrsta>
+        <size>100x200</size>
+        <price>120</price>
+    </usluga>   
+</root>
